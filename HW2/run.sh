@@ -1,0 +1,1 @@
+python get_n_gram.py /Users/matveyantonov/Desktop/infosearch/data/articles_extracted.tsv

@@ -1,0 +1,23 @@
+# Числовые операции
+read a
+read b
+sum = a + b
+diff = a - b
+prod = a * b
+quot = b / a
+print sum
+print diff
+print prod
+print quot
+
+# Усложнённое выражение
+d = a + b * (2 + a / 2)
+print d
+
+# Строковые операции
+read x
+read y
+print x + " " + y
+print "Hello, " + "world"
+greeting = x + ", " + y + "!"
+print greeting
