@@ -6,6 +6,7 @@ import nltk
 from nltk.corpus import stopwords
 from pandarallel import pandarallel
 from collections import Counter
+from сustom_map import CastomCounter
 
 nltk.download('stopwords', quiet=True)
 rus_stop = set(stopwords.words('russian'))
@@ -39,7 +40,10 @@ if __name__ == "__main__":
     
     for n in N:
         print(f'top {top_len} N-gamm for n={n}')
+        print(f"COUNTER {'_'*100}")
         print(Counter(get_ngrams(tokens, n)).most_common(top_len))
+        print(f"CASTOM {'_'*100}")
+        print(CastomCounter(get_ngrams(tokens, n)).most_common(top_len))
         print()
     
     
