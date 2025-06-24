@@ -1,1 +1,1 @@
-python inverted_index_morph.py /Users/matveyantonov/Desktop/infosearch/data/articles_extracted.tsv
+python inverted_index_morph.py /Users/matveyantonov/Desktop/infosearch/info_search_course/data/articles_extracted.tsv
